@@ -1,0 +1,39 @@
+{
+  "project": "Synthetic Data Engine for Fluorescence-Based Detection of Pharmaceutical-Laden Microplastics in Water Systems",
+  "dataset": "D:\\Reggy\\sciencefair\\Pharmablast\\data\\synthetic_modeling_data.csv",
+  "dataset_rows": 15000,
+  "validation_data": "D:\\Reggy\\sciencefair\\Pharmablast\\data\\validation_data.csv",
+  "average_validation_error_percent": 3.15,
+  "figures_created": [
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\figures\\saturation_curve.png",
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\figures\\saturation_curve.svg",
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\figures\\polymer_fluorescence_comparison.png",
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\figures\\polymer_fluorescence_comparison.svg",
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\figures\\wavelength_efficiency_curve.png",
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\figures\\wavelength_efficiency_curve.svg",
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\figures\\particle_size_effect.png",
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\figures\\particle_size_effect.svg",
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\figures\\pharmaceutical_modulation.png",
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\figures\\pharmaceutical_modulation.svg",
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\figures\\sensor_threshold_plot.png",
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\figures\\sensor_threshold_plot.svg",
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\figures\\baseline_vs_optimized.png",
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\figures\\baseline_vs_optimized.svg",
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\figures\\validation_plot.png",
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\figures\\validation_plot.svg"
+  ],
+  "three_d_visuals_created": [
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\3d_visuals\\response_surface.html",
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\3d_visuals\\response_surface.png",
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\3d_visuals\\response_surface.svg",
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\3d_visuals\\parameter_space_explorer.html",
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\3d_visuals\\pharmaceutical_effect_surface.html",
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\3d_visuals\\sensor_chamber.html",
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\3d_visuals\\sensor_chamber.png",
+    "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\3d_visuals\\sensor_chamber.svg"
+  ],
+  "software_summary": "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\reports\\software_summary.md",
+  "exported_data_folder": "D:\\Reggy\\sciencefair\\Pharmablast\\outputs\\exported_data",
+  "validation_rows": 6,
+  "scope": "Physics-informed modeling and visualization; no ML workflow is used."
+}

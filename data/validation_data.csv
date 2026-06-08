@@ -1,0 +1,7 @@
+polymer,dye_concentration_ug_ml,experimental_mV,experimental_sd_mV,simulated_mV,simulated_sd_mV,percent_error,sample
+PS,1.0,142,18,138,21,2.8,PS 1.0 ug/mL
+PS,5.0,286,31,294,35,2.8,PS 5.0 ug/mL
+PS,10.0,312,28,321,33,2.9,PS 10.0 ug/mL
+PE,1.0,118,15,114,19,3.4,PE 1.0 ug/mL
+PE,5.0,241,26,248,29,2.9,PE 5.0 ug/mL
+PE,10.0,268,24,279,28,4.1,PE 10.0 ug/mL
