@@ -19,3 +19,8 @@ Thumbs.db
 *.log
 .vscode/
 .idea/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
