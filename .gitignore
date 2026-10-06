@@ -1,29 +1,15 @@
-# Python
 __pycache__/
 *.py[cod]
+*$py.class
 *.egg-info/
-.ipynb_checkpoints/
-
-# Virtual environments
+*.egg
+dist/
+build/
+.eggs/
 .venv/
 venv/
-env/
-ENV/
-
-# Streamlit secrets (NEVER commit) — config.toml is kept on purpose
-.streamlit/secrets.toml
-
-# OS / editor junk
+.pytest_cache/
+.coverage
+htmlcov/
 .DS_Store
 Thumbs.db
-*.log
-.vscode/
-.idea/
-
-# Tooling caches
-.pytest_cache/
-.ruff_cache/
-.mypy_cache/
-
-# Runtime process files
-*.pid
