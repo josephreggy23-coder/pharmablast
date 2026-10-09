@@ -15,3 +15,5 @@ htmlcov/
 Thumbs.db
 .ipynb_checkpoints/
 *.pid
+.ruff_cache/
+.mypy_cache/
