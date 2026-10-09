@@ -17,3 +17,6 @@ Thumbs.db
 *.pid
 .ruff_cache/
 .mypy_cache/
+.idea/
+.vscode/
+.env
