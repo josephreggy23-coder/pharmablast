@@ -18,7 +18,7 @@ Where:
 
 - `Qp` is polymer-specific quantum yield.
 - `A(lambda)` is Nile Red wavelength absorption efficiency, modeled as a Gaussian centered at 550 nm with SD 40 nm.
-- `S(cd)` is Langmuir dye saturation with half-saturation near 2.0 ug/mL.
+- `S(cd)` is Langmuir dye saturation with half-saturation near 2.0 µg/mL.
 - `As` is particle surface area from particle diameter and count.
 - `E` is excitation intensity.
 - `Mdrug = 1 + alpha * Cdrug` is pharmaceutical fluorescence modulation.
@@ -77,9 +77,9 @@ The model includes:
 
 - PS, PE, PP, and PET polymer classes.
 - Quantum yields: PS 0.42, PE 0.38, PP 0.35, PET 0.33.
-- Langmuir dye saturation from 0.5 to 10.0 ug/mL.
+- Langmuir dye saturation from 0.5 to 10.0 µg/mL.
 - Gaussian wavelength efficiency centered at 550 nm.
-- Log-normal particle size statistics around a 500 um geometric mean.
+- Log-normal particle size statistics around a 500 µm geometric mean.
 - Silicon photodiode responsivity around 0.4 A/W at 630 nm.
 - Transimpedance amplifier, 12-bit ADC, shot noise, Johnson noise, flicker noise, dark current/background noise, SNR, and detection threshold.
 - Controlled validation comparison for PS/PE fluorescence values.

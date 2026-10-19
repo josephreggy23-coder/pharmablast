@@ -12,8 +12,8 @@ The core model is `I = Qp * A(lambda) * S(cd) * As * E * Mdrug`. I use polymer-s
 
 1. Start with the main equation and show each physical term.
 2. Open the Model Simulator and show a baseline PE condition.
-3. Increase dye concentration into the 3 to 5 ug/mL useful range and show the signal increase.
-4. Increase dye above 5 ug/mL and explain saturation.
+3. Increase dye concentration into the 3 to 5 µg/mL useful range and show the signal increase.
+4. Increase dye above 5 µg/mL and explain saturation.
 5. Increase particle size and explain surface-area scaling.
 6. Move alpha negative and positive to show modeled quenching/enhancement.
 7. Open the 3D Response Surface and point out the joint effect of dye and particle size.

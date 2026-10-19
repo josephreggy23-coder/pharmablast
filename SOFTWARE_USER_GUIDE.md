@@ -25,7 +25,7 @@ The output cards show predicted fluorescence intensity, signal-to-noise ratio, d
 - Polymer type: selects PS, PE, PP, or PET quantum yield.
 - Particle count: number of particles contributing signal.
 - Mean particle size: diameter used for surface-area scaling.
-- Dye concentration: Nile Red concentration in ug/mL.
+- Dye concentration: Nile Red concentration in µg/mL.
 - Excitation wavelength: 450, 488, or 550 nm.
 - Excitation intensity: relative light intensity.
 - Pharmaceutical concentration: modeled contamination level.

@@ -26,7 +26,7 @@ The model uses Langmuir saturation:
 S(cd) = cd / (Kd + cd)
 ```
 
-`Kd` is set near 2.0 ug/mL. Fluorescence rises quickly at low dye concentration, then begins to saturate. The dashboard marks the useful operating range around 3 to 5 ug/mL and the saturation zone above about 5 ug/mL.
+`Kd` is set near 2.0 µg/mL. Fluorescence rises quickly at low dye concentration, then begins to saturate. The dashboard marks the useful operating range around 3 to 5 µg/mL and the saturation zone above about 5 µg/mL.
 
 ## Particle Size and Surface Area
 
