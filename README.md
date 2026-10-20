@@ -38,6 +38,8 @@ pip install -r requirements.txt
 python main.py
 ```
 
+Use `--samples N` to change the number of synthetic rows and `--seed N` for a different reproducible random seed.
+
 This creates:
 
 - `data/synthetic_modeling_data.csv`
