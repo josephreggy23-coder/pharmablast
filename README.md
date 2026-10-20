@@ -73,6 +73,12 @@ The dashboard tabs are:
 - `outputs/exported_data/`: files prepared for download or sharing.
 - `outputs/reports/`: build summary and software summary report.
 
+## Further Documentation
+
+- [Software User Guide](SOFTWARE_USER_GUIDE.md): step-by-step dashboard walkthrough.
+- [Model Explanation](MODEL_EXPLANATION.md): equations and parameter choices.
+- [Judge Demo Script](JUDGE_DEMO_SCRIPT.md): short pitch and anticipated questions.
+
 ## Scientific Scope
 
 The model includes:
