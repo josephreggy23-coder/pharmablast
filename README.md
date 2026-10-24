@@ -25,6 +25,8 @@ Where:
 
 ## Installation
 
+Requires Python 3.10 or newer.
+
 ```bash
 python -m venv .venv
 # Windows: .venv\Scripts\activate
