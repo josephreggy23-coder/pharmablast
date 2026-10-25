@@ -3,7 +3,7 @@ import numpy as np
 import plotly.graph_objects as go
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 
-from .config import DEEP_PURPLE, LIGHT_GRAY, LIGHT_PURPLE, PURPLE, SOFT_PURPLE, VISUAL_3D_DIR
+from .config import DEEP_PURPLE, LIGHT_GRAY, LIGHT_PURPLE, PURPLE, VISUAL_3D_DIR
 from .physics_model import drug_modulation, predict_fluorescence_power_w
 from .sensor_model import sensor_response
 

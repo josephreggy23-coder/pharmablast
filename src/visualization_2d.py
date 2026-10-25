@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import pandas as pd
 
 from .config import (
     DEEP_PURPLE,
@@ -15,7 +14,7 @@ from .config import (
 from .optimization import baseline_vs_improved
 from .physics_model import drug_modulation, langmuir_saturation, predict_fluorescence_power_w, wavelength_absorption
 from .sensor_model import sensor_response
-from .utils import average_validation_error, save_validation_data, validation_dataframe
+from .utils import average_validation_error, save_validation_data
 
 
 def _style_axes(ax) -> None:
