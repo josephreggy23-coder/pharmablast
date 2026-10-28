@@ -22,3 +22,6 @@ Thumbs.db
 .env
 coverage.xml
 *.log
+
+# Streamlit local secrets
+.streamlit/secrets.toml
