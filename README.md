@@ -40,6 +40,8 @@ pip install -r requirements.txt
 python main.py
 ```
 
+The older `python scripts/run_pipeline.py` entry point still works and simply calls `main.py`.
+
 Use `--samples N` to change the number of synthetic rows and `--seed N` for a different reproducible random seed.
 
 This creates:
