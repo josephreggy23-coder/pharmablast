@@ -42,7 +42,11 @@ python main.py
 
 The older `python scripts/run_pipeline.py` entry point still works and simply calls `main.py`.
 
-Use `--samples N` to change the number of synthetic rows and `--seed N` for a different reproducible random seed.
+Use `--samples N` to change the number of synthetic rows and `--seed N` for a different reproducible random seed, for example:
+
+```bash
+python main.py --samples 5000 --seed 7
+```
 
 This creates:
 
