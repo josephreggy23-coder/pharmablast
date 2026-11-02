@@ -74,7 +74,8 @@ def write_software_summary(dataset_rows: int, avg_error: float, figure_count: in
                 "",
                 "Recommended judge demo order: equation, baseline condition, dye saturation, particle size effect, pharmaceutical modulation, 3D response surface, sensor chamber, export center.",
             ]
-        ),
+        )
+        + "\n",
         encoding="utf-8",
     )
     return path
