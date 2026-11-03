@@ -10,7 +10,13 @@ from src.config import (
     ensure_directories,
 )
 from src.synthetic_dataset import generate_synthetic_modeling_data
-from src.utils import average_validation_error, cleanup_legacy_outputs, copy_for_export, save_validation_data, write_software_summary
+from src.utils import (
+    average_validation_error,
+    cleanup_legacy_outputs,
+    copy_for_export,
+    save_validation_data,
+    write_software_summary,
+)
 from src.visualization_2d import generate_all_2d_figures
 from src.visualization_3d import generate_all_3d_visuals
 
