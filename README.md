@@ -56,6 +56,7 @@ This creates:
 - `outputs/3d_visuals/`
 - `outputs/exported_data/`
 - `outputs/reports/software_summary.md`
+- `outputs/reports/build_summary.json`
 
 ## Run the Dashboard
 
