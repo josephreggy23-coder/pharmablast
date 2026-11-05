@@ -9,6 +9,8 @@ from .sensor_model import sensor_response
 
 @dataclass(frozen=True)
 class Condition:
+    """One set of experimental settings to score for detectability."""
+
     polymer: str
     particle_count: int
     diameter_um: float
@@ -56,6 +58,7 @@ def detection_score(snr: float, saturation: float, wavelength_efficiency: float,
 
 
 def score_label(score: float) -> str:
+    """Map a 0-100 detectability score to a Strong/Usable/Marginal/Weak label."""
     if score >= 82:
         return "Strong"
     if score >= 62:
