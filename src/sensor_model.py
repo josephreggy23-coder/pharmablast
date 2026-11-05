@@ -1,3 +1,5 @@
+"""Photodiode sensor model: signal, noise, and detection threshold."""
+
 import numpy as np
 
 from .config import (

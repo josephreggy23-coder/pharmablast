@@ -1,3 +1,5 @@
+"""Physics model for Nile Red fluorescence of microplastic particles."""
+
 import numpy as np
 
 from .config import (
