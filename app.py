@@ -515,6 +515,7 @@ def _topbar(page: str) -> None:
 # Modules
 # ----------------------------------------------------------------------------
 def page_simulator(p: dict) -> None:
+    """Render the live simulator page for the current sidebar parameters."""
     power = predict_fluorescence_power_w(p["polymer"], p["count"], p["diameter"], p["dye"], p["wavelength"], p["excitation"], p["pharma"], p["alpha"])
     sensor = sensor_response(power, noise_level=p["noise_level"], include_random=False)
     factors = model_factors(p["polymer"], p["count"], p["diameter"], p["dye"], p["wavelength"], p["excitation"], p["pharma"], p["alpha"])
@@ -611,6 +612,7 @@ def page_simulator(p: dict) -> None:
 
 
 def page_exports() -> None:
+    """Render the exports page with download buttons for generated outputs."""
     groups = {
         "Data and reports": [
             DATA_DIR / "synthetic_modeling_data.csv",
@@ -634,6 +636,7 @@ def page_exports() -> None:
 
 
 def main() -> None:
+    """Streamlit entry point: draw the shell and route to the selected page."""
     if st is None:
         print("Streamlit is not installed. Install requirements, then run: streamlit run app.py")
         return
