@@ -57,6 +57,7 @@ def build_project(n_samples: int = DEFAULT_DATASET_SAMPLES, seed: int = RANDOM_S
 
 
 def main() -> None:
+    """Command-line entry point: build all outputs and print a summary."""
     parser = argparse.ArgumentParser(description="Build the microplastic fluorescence modeling platform outputs.")
     parser.add_argument("--samples", type=int, default=DEFAULT_DATASET_SAMPLES, help="Number of synthetic modeling rows to generate.")
     parser.add_argument("--seed", type=int, default=RANDOM_SEED, help="Random seed for reproducible outputs.")
