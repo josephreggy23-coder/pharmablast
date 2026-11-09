@@ -26,3 +26,6 @@ coverage.xml
 
 # Streamlit local secrets
 .streamlit/secrets.toml
+
+# Streamlit local secrets (never commit)
+.streamlit/secrets.toml
